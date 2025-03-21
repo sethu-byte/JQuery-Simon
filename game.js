@@ -84,3 +84,9 @@ function checkAnswer(currentlevel){
         
 
 }
+
+$("#start").click(function () { 
+    if(gamePattern.length==0){
+        nextSequence();}
+        $("h1").html("level "+level);
+});
